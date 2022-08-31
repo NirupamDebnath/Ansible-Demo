@@ -1,0 +1,7 @@
+-
+  name: Shutdown targets
+  hosts: all
+  become: yes
+  tasks:
+  - name: shutdown hosts
+    command: /sbin/shutdown -h now

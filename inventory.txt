@@ -1,0 +1,2 @@
+target1 ansible_host=192.168.29.12 ansible_ssh_pass=fedora ansible_user=fedora
+target2 ansible_host=192.168.29.26 ansible_ssh_pass=fedora ansible_user=fedora

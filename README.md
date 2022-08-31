@@ -8,3 +8,9 @@ Testbed :
 
 Installation:
 1. sudo dnf install ansible
+
+Commands:
+1. ansible target1 -m ping -i inventory.txt
+2. ansible target2 -m ping -i inventory.txt
+3. ansible all -m ping -i inventory.txt
+4. ansible-playbook pingtest-playbook.yaml -i inventory.txt
